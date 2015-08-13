@@ -1,5 +1,5 @@
 #INSTRUCTIONS
-# 1. Add the below lines to your .bashrc / .bashprofile in home directory
+# 1. Add the below lines to your .bashrc / .bash_profile in home directory
 #----
 # export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.2/bin
 # export PATH="$MAMP_PHP:$PATH"
@@ -9,7 +9,7 @@
 #----
 #
 # 2. Create Directory in htdocs MAMP folder
-# 3. cd to directory and run command 'wpboom'
+# 3. cd to directory and run command 'wpboom'  -- if error, run source ~/.bashrc or .bash_profile
  
 
 
