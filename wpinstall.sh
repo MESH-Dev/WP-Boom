@@ -15,8 +15,8 @@
 
 #!/bin/bash -e
 
-wpuser='mesh'
-password='wert2345' 
+wpuser='admin'    # Change for production
+password='admin'  # Change for production
 clear
 
 echo "================================================================="
