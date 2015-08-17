@@ -14,9 +14,6 @@
 
 
 #!/bin/bash -e
-
-wpuser='admin'    # Change for production
-password='admin'  # Change for production
 clear
 
 echo "================================================================="
@@ -30,6 +27,14 @@ read -e dbname
 # accept the name of our website
 echo "Site Name: "
 read -e sitename
+
+# accept the admin username of our website
+echo "Admin Username: "
+read -e wpuser
+
+# accept the admin password of our website
+echo "Admin Password: "
+read -e password
 
 # accept a comma separated list of pages
 echo "Add Pages: "
